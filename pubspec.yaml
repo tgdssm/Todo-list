@@ -1,0 +1,32 @@
+name: todo_list
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-139.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.1.1
+  flutter_modular: ^5.0.3
+  uuid: ^3.0.7
+  get: ^4.6.5
+  result:
+    git:
+      url: https://github.com/tgdssm/result.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
